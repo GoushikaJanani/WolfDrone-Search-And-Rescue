@@ -4,12 +4,12 @@ The goal of this project is to develop and demonstrate an UAV capable of recogni
 
 ### Prerequisites
 
-Python 2.7 
-OpenCV 3.4.2
-Darknet YOLOv3
-ROS Kinetic
-v4l2capture
-MAVROS
+1. Python 2.7 
+2. OpenCV 3.4.2
+3. Darknet YOLOv3
+4. ROS Kinetic
+5. v4l2capture
+6. MAVROS
 
 ### Installing
 
@@ -23,5 +23,7 @@ MAVROS
 ## Running the tests
 
 Once the prerequisites are installed on Jetson TX2,run roslaunch mavros px4.launch in another terminal.
+
 If you want to run the whole search and rescue mission run roslaunch wolfdrone search_and_rescue.launch.
+
 If you want to test a take off and land run roslaunch wolfdrone takeoff_land.launch.

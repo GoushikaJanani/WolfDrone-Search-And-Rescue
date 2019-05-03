@@ -23,10 +23,8 @@ MAVROS
 ## Running the tests
 
 Once the prerequisites are installed on Jetson TX2,
-run roslaunch mavros px4.launch in another terminal
-
+run roslaunch mavros px4.launch in another terminal.
 If you want to run the whole search and rescue mission
-run roslaunch wolfdrone search_and_rescue.launch
-
+run roslaunch wolfdrone search_and_rescue.launch.
 If you want to test a take off and land
 run roslaunch wolfdrone takeoff_land.launch

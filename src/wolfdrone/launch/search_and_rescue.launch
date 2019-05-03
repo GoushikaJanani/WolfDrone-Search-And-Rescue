@@ -1,0 +1,12 @@
+<launch>
+  <node name="human_detector" pkg="wolfdrone" type="humanDetector.py" output="screen">
+  </node>
+  <node name="rescue_mission" pkg="wolfdrone" type="search_and_rescue.py" output="screen">
+    <!-- Location Parameters -->
+    <rosparam param = "home_lat">35.7701400</rosparam>
+    <rosparam param = "home_lon">-78.6645415</rosparam>
+    <rosparam param = "land_lat">35.7701400</rosparam>
+    <rosparam param = "land_lon">-78.6645415</rosparam>
+    
+  </node>
+</launch>

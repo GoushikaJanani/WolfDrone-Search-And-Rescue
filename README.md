@@ -1,7 +1,6 @@
 # Search-And-Rescue (SAR) Drone
 
-
-One Paragraph of project description goes here
+The goal of this project is to develop and demonstrate an UAV capable of recognizing a "body" or person lying on the ground and then land and deliver a small "rescue" package next to that person.
 
 ## Getting Started
 

@@ -1,6 +1,7 @@
 # Search-And-Rescue (SAR) Drone
 
 The goal of this project is to develop and demonstrate an UAV capable of recognizing a "body" or person lying on the ground and then land and deliver a small "rescue" package next to that person.
+![drone_yolo](https://user-images.githubusercontent.com/10102116/65392387-5b3fd200-dd42-11e9-9bf5-1e799f632209.JPG)
 
 ### Prerequisites
 
@@ -22,8 +23,8 @@ The goal of this project is to develop and demonstrate an UAV capable of recogni
 
 ## Running the tests
 
-Once the prerequisites are installed on Jetson TX2,run roslaunch mavros px4.launch in another terminal.
+Once the prerequisites are installed on Jetson TX2,run 'roslaunch mavros px4.launch' in another terminal.
 
-If you want to run the whole search and rescue mission run roslaunch wolfdrone search_and_rescue.launch.
+If you want to run the whole search and rescue mission run 'roslaunch wolfdrone search_and_rescue.launch'.
 
-If you want to test a take off and land run roslaunch wolfdrone takeoff_land.launch.
+If you want to test a take off and land run 'roslaunch wolfdrone takeoff_land.launch'.
